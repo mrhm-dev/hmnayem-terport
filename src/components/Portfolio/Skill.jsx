@@ -6,7 +6,7 @@ function Skill() {
 				that I have is{' '}
 				<span className='error'>
 					{' '}
-					"I can learn whatever I should learner"
+					"I can learn whatever I should learn"
 				</span>
 			</p>
 		</div>

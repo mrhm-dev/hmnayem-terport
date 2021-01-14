@@ -19,7 +19,7 @@ const InputCommand = ({ command, onCommandChange, handleCommand }) => {
 				onKeyPress={(e) => {
 					if (e.key === 'Enter') {
 						if (command) {
-							handleCommand(command.toLowerCase());
+							handleCommand(command.trim().toLowerCase());
 							e.target.value = '';
 						} else {
 							handleCommand('enter');
